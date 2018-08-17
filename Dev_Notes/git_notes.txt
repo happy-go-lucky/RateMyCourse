@@ -21,3 +21,10 @@ branchname is master by default
 Step 8: make changes to exiting file of the repository and upload it to github. Lets say we made change to blah.txt file
 git commit path/blah.txt
 git push origin branchname
+
+
+Useful commands:
+
+List the contents of a branch:
+git ls-tree branchname
+
