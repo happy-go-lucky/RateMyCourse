@@ -1,0 +1,23 @@
+Git 101
+
+Step1: Install git
+
+Step2: Setup git to the github remote URL
+
+Step3: create a folder on your local machine where you would like to see the files mapped to GITHUB repo
+
+Step4: run: git init dictory/path
+
+Step5: Sync your local directory with the files from the GITHUB by following command
+git pull origin master
+
+Step6: add a "new file or folder" to your local repository and then link it to the branch by following command
+git add filename
+
+Step7: upload the updated local repository to the online github by following command
+git push origin branchname
+branchname is master by default
+
+Step 8: make changes to exiting file of the repository and upload it to github. Lets say we made change to blah.txt file
+git commit path/blah.txt
+git push origin branchname
