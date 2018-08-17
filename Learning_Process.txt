@@ -1,1 +1,8 @@
 Learning Process
+Useful git commands:
+Git status
+Git push origin master
+Git add.
+Git pull origin master
+
+To copy paste the repository link, go to website, tap on "Clone or Download" green fancy button.
