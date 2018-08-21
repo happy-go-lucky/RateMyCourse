@@ -1,0 +1,61 @@
+minutes
+
+main page
+
+a new page when search "CPSC" will show up all the CPSC courses in Langara with titles, clickable
+
+- limit user activities, cannot add
+- no comments on ratings
+- detailed ratings: has to be more objective
+- do a survey to find out detailed rating parts (update it once school starts)
+
+login: OAuth2.0
+
+SignUp page
+
+- XHTTPRequest
+- put up a front-end page first for Login/SignUp
+- interactive wire-frame
+
+About Us: people who made this page
+
+Instruction page
+
+- limit rating to 1 decimal
+- AVG function
+
+Rating Details:
+- number of hours of work
+- how much math is involved
+- how helpful is course material (textbook)
+- how helpful it is for the future courses
+- group activities
+- how helpful is teacher office hour
+- how related is exam and course work
+
+
+Information page: 
+- link to Langara official ones
+- link to teacher's past offering one (difficult because update every year)
+- link to rate my prof
+
+
+- past terms of averages ( JSON )
+
+
+Plan next week until August 27th:
+- interactive wireframes (HTML)
+- LESS instead of CSS
+- NodeJS
+- MongoDB
+- MeanStack 
+
+index.html (H)
+search.html (R)
+cpsc1181.html (T)
+signup.html (T)
+login.html (T)
+instructions.html (R)
+rate.html (H)
+aboutus.html (H)
+ads.html (R)
