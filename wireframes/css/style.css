@@ -1,0 +1,48 @@
+/* master style sheet  */
+/* robin yuan Sep 5 2018 */
+
+/* style general things  */
+header, nav, main, footer {
+  border: 1px black solid;
+}
+
+/* style drop down menu  */
+.dropbtn {
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn img {
+  width: 50px;
+  height: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
