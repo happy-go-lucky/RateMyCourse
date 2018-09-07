@@ -1,30 +1,53 @@
 Git 101
 
-Step1: Install git
+Step 1: Install git
 
-Step2: Setup git to the github remote URL
+Step 2: Setup git to the github remote URL
+git config --global user.name <Your name>
+git config --local user.email <Your email>
 
-Step3: create a folder on your local machine where you would like to see the files mapped to GITHUB repo
+Step 3: create a folder on your local machine where you would like to see the files mapped to GITHUB repo
 
-Step4: run: git init dictory/path
+Step 4: run: git init dictory/path
 
-Step5: Sync your local directory with the files from the GITHUB by following command
+Step 5: link your remote repository to git
+git clone <repo link here>
+git remote add <a name for repo> <remote url>
+
+Step 6: Sync your local directory with the files from the GITHUB by following command
 git pull origin master
 
-Step6: add a "new file or folder" to your local repository and then link it to the branch by following command
+Step 7: add a "new file or folder" to your local repository and then link it to the branch by following command
 git add filename
 
-Step7: upload the updated local repository to the online github by following command
+Step 8: upload the updated local repository to the online github by following command (remember to do commit first. check step 9)
 git push origin branchname
 branchname is master by default
 
-Step 8: make changes to exiting file of the repository and upload it to github. Lets say we made change to blah.txt file
+Step 9: make changes to exiting file of the repository and upload it to github. Lets say we made change to blah.txt file
 git commit path/blah.txt
 git push origin branchname
 
 
 Useful commands:
-
+-----------------------------------------------------------------------
 List the contents of a branch:
 git ls-tree branchname
+
+List the git configuration for the directory:
+git config --list
+
+See the changes you have made to file to the one on the server (try to do this before you git add any changes):
+git diff filepath/filename
+
+List all remote urls:
+git remote -v
+
+remove a file from repository:
+git rm filepath/filename
+git commit reponame branchname
+git push reponame branchname
+
+give a meaningful local name to the remote git repo which is by default called "origin":
+git rename origin <new name>
 
