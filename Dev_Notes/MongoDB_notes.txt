@@ -1,0 +1,31 @@
+npm install mongodb (optional)
+
+install mongo db
+
+run the following command where dbpath is a already created somewhere:
+"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+after you see the waiting for connections message, open another terminal window and run "mongo" command. That's it.
+
+
+each database is referenced by "db". You can use "db" command to check currently selected database.
+Each database contains collections and collections have records. Records are very similar to json objects.
+
+To upload the database files to git:
+mongodump --db="SourceDBname" --out="path\to\data-backup"
+then upload the folder to git
+mongorestore --db="TargetDBname" "path\to\backupfiles"
+
+create a Database:
+use dbname
+
+drop a database:
+db.dropDatabase()
+
+create a collection:
+db.createCollection(name, options)
+eg: db.createCollection("myCollection")
+
+drop collection:
+
+
