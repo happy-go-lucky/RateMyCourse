@@ -11,7 +11,7 @@ Step 3: create a folder on your local machine where you would like to see the fi
 Step 4: run: git init dictory/path
 
 Step 5: link your remote repository to git
-git clone <repo link here>
+git clone <repo link here> (optional)
 git remote add <a name for repo> <remote url>
 
 Step 6: Sync your local directory with the files from the GITHUB by following command
@@ -51,3 +51,11 @@ git push reponame branchname
 give a meaningful local name to the remote git repo which is by default called "origin":
 git rename origin <new name>
 
+remove git repo locally
+rmdir /s .git
+
+if you have some local changes that you don't want to commit, and you would like to pull to latest. Do:
+git stash
+git pull
+git stash pop
+git push (if there are any committed changes that you would like to push)
